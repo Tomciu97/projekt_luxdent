@@ -1,9 +1,9 @@
-body {
+body{
     margin: 0;
     padding: 0;
 }
 
-nav a {
+nav a{
     letter-spacing: 4px;
     font-size: 20px !important;
     margin-right: 20px;
@@ -11,17 +11,17 @@ nav a {
     transition: 0.2s ease-in-out;
 }
 
-nav a:hover {
+nav a:hover{
     opacity: 0.7;
     cursor: pointer;
     transform: scale(1.05);
 }
 
-div h1 {
+div h1{
     letter-spacing: 4px !important;
 }
 
-.logo {
+.logo{
     margin-left: 25px;
     margin-right: 50px;
     margin-top: 10px;
@@ -48,12 +48,12 @@ div h1 {
     margin-bottom: 115px;
 }
 
-.marginHr {
+.marginHr{
     margin-top: 50px !important;
 }
 
 /* ZDJECIA NA STRONIE GŁOWNEJ */
-.zdjeciaGlowne {
+.zdjeciaGlowne{
     width:100%;
     min-width: 330px;
     max-width:350px;
@@ -64,14 +64,14 @@ div h1 {
     transition: 0.2s ease-in-out;
 }
 
-.zdjeciaGlowne:hover {
+.zdjeciaGlowne:hover{
     opacity: 0.7;
     cursor: pointer;
     transform: scale(1.05);
 }
 
 /* ZDJECIA DLA OFERY */
-.zdjeciaOferta {
+.zdjeciaOferta{
     width:100%;
     max-width:350px;
     min-height: 350px;;
@@ -83,14 +83,14 @@ div h1 {
     
 }
 
-.zdjeciaOferta:hover {
+.zdjeciaOferta:hover{
     opacity: 0.7;
     cursor: pointer;
     transform: scale(1.05);
 }
 
 /* ZDJECIA PROMOCJE */
-.zdjeciaPromocje {
+.zdjeciaPromocje{
     width:100%;
     max-width:450px;
     min-height: 250px;
@@ -100,14 +100,14 @@ div h1 {
     transition: 0.2s ease-in-out;
 }
 
-.zdjeciaPromocje:hover {
+.zdjeciaPromocje:hover{
     opacity: 0.7;
     cursor: pointer;
     transform: scale(1.05);
 }
 
 /* ZDJĘCIA FIRMA */
-.zdjeciaFirma {
+.zdjeciaFirma{
     width:100%;
     min-width: 330px;
     max-width:470px;
@@ -119,14 +119,14 @@ div h1 {
     transition: 0.2s ease-in-out;
 }
 
-.zdjeciaFirma:hover {
+.zdjeciaFirma:hover{
 opacity: 0.7;
 cursor: pointer;
 transform: scale(1.05);
 }
 
 /* WYŚWIETLANIE ZDJĘCIA */
-.modal {
+.modal{
     display: none; 
     position: fixed; 
     z-index: 1; 
@@ -139,7 +139,7 @@ transform: scale(1.05);
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.9); 
 }
-.modal-content {
+.modal-content{
     margin: auto;
     display: block;
     height: 90%;
@@ -148,14 +148,14 @@ transform: scale(1.05);
     animation-name: zoom;
     animation-duration: 0.6s;
 }
-@keyframes zoom {
+@keyframes zoom{
     from {transform:scale(0)}
     to {transform:scale(1)}
 }
 /* WYŚWITLANIE ZDJECIA */
 
 /* GODZINY OTWARCIA */
-.godziny {
+.godziny{
     display: flex;
     flex-direction: column;
     float: left;
@@ -165,37 +165,40 @@ transform: scale(1.05);
     border-radius: 10px;
     padding: 30px;
 }
-.godziny > .h-ramka {
+.godziny > .h-ramka{
     font-size: xx-large;
 }
 
 /* MAPKA */
-.mapka {
+.mapka{
     max-height: 470px;
 }
 
 /* MEDIA */
 @media(max-width: 558px){
-    body div {
+    body div{
         margin-top: 10px !important;
     }
-    .marginHr {
+    .marginHr{
         margin-top: 75px !important;
     }
     .modal{
         padding-top: 80px;
     }
-    .modal-content {
+    .modal-content{
         height: 70%;
         width: 100%;
     }
-    .mapka  {
+    .mapka{
         max-width: 300px;
     }
-    .godziny {
+    .godziny{
         min-width: 300px;
         max-height: 700px;
         font-size: small;
+    }
+    .pomniejszone-zapraszamy{
+        font-size: 40px;
     }
 }
 /* MEDIA */
